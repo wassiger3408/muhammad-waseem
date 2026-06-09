@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Waseem | Web & Graphic Designer</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height:1.6;
+    color:#333;
+    background:#f8f9fa;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+header{
+    background:#111827;
+    color:white;
+    padding:80px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+    opacity:.9;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 24px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+section{
+    padding:60px 0;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#111827;
+}
+
+.about,
+.skills,
+.projects,
+.experience,
+.contact{
+    background:white;
+    margin-bottom:20px;
+    padding:30px;
+    border-radius:10px;
+}
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:12px;
+}
+
+.skill{
+    background:#eef2ff;
+    padding:12px;
+    border-radius:6px;
+}
+
+.project{
+    border-left:4px solid #2563eb;
+    padding-left:15px;
+    margin-bottom:25px;
+}
+
+.project a{
+    color:#2563eb;
+    text-decoration:none;
+}
+
+.job{
+    margin-bottom:25px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#111827;
+    color:white;
+}
+
+@media(max-width:768px){
+header h1{
+font-size:2rem;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<h1>Muhammad Waseem</h1>
+<p>Web Designer • Graphic Designer • UI/UX Designer</p>
+
+<a class="btn" href="Muhammad_Waseem_CV.pdf" target="_blank">
+Download CV
+</a>
+</div>
+</header>
+
+<div class="container">
+
+<section class="about">
+<h2>About Me</h2>
+
+<p>
+I am a Web & Graphic Designer with 4+ years of professional experience creating
+user-centered digital experiences, responsive websites, branding materials,
+and marketing assets. I combine creativity with technical expertise in UI/UX,
+WordPress, Webflow, Adobe Creative Suite, and front-end web technologies.
+Currently pursuing an M.Sc. in Applied Mathematics for Network and Data Sciences
+in Germany.
+</p>
+</section>
+
+<section class="skills">
+<h2>Skills</h2>
+
+<div class="skills-grid">
+<div class="skill">Adobe Photoshop</div>
+<div class="skill">Adobe Illustrator</div>
+<div class="skill">Adobe InDesign</div>
+<div class="skill">Figma</div>
+<div class="skill">Adobe XD</div>
+<div class="skill">UI/UX Design</div>
+<div class="skill">WordPress</div>
+<div class="skill">Webflow</div>
+<div class="skill">HTML & CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Bootstrap</div>
+<div class="skill">WooCommerce</div>
+<div class="skill">Responsive Design</div>
+<div class="skill">Brand Identity</div>
+<div class="skill">Print Design</div>
+<div class="skill">Digital Marketing Assets</div>
+</div>
+</section>
+
+<section class="projects">
+<h2>Featured Projects</h2>
+
+<div class="project">
+<h3>National Publishing & Advertising</h3>
+<p>Designed and developed a responsive corporate website focused on usability, branding, and engagement.</p>
+<p><a href="https://www.npa.om" target="_blank">Visit Project →</a></p>
+</div>
+
+<div class="project">
+<h3>Tiara Oman Events</h3>
+<p>Designed and developed a modern event management website using WordPress and custom development.</p>
+<p><a href="https://tiaraoman.com" target="_blank">Visit Project →</a></p>
+</div>
+
+<div class="project">
+<h3>Casabella Oman E-Commerce</h3>
+<p>Developed a WooCommerce-powered e-commerce platform with a seamless shopping experience.</p>
+<p><a href="https://www.casabella.om" target="_blank">Visit Project →</a></p>
+</div>
+
+<div class="project">
+<h3>Behance Portfolio</h3>
+<p>View additional design projects and creative work.</p>
+<p><a href="https://www.behance.net/waseem_aslam" target="_blank">Visit Portfolio →</a></p>
+</div>
+
+</section>
+
+<section class="experience">
+<h2>Professional Experience</h2>
+
+<div class="job">
+<h3>Web & Graphic Designer</h3>
+<p><strong>National Publishing & Advertising, Oman</strong></p>
+<p>2019 – 2021</p>
+</div>
+
+<div class="job">
+<h3>Web Development Intern</h3>
+<p><strong>Kalsoft Limited, Oman</strong></p>
+<p>2018</p>
+</div>
+
+</section>
+
+<section class="contact">
+<h2>Contact</h2>
+
+<p><strong>Email:</strong> engr.waseem.aslam1@gmail.com</p>
+<p><strong>Phone:</strong> +49 152 12080438</p>
+
+<p>
+<strong>LinkedIn:</strong><br>
+<a href="https://www.linkedin.com/in/waseem-aslam-197028139/" target="_blank">
+linkedin.com/in/waseem-aslam-197028139
+</a>
+</p>
+
+<p>
+<strong>Behance:</strong><br>
+<a href="https://www.behance.net/waseem_aslam" target="_blank">
+behance.net/waseem_aslam
+</a>
+</p>
+
+</section>
+
+</div>
+
+<footer>
+<p>© 2026 Muhammad Waseem | Web & Graphic Designer</p>
+</footer>
+
+</body>
+</html>
